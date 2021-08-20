@@ -2,26 +2,56 @@
 <html>
 
 <head>
-    <title>taitsu</title>
-    <style>
-        a {
-            width: 90%;
-            height: 90%;
-        }
-        
-        a img {
-            max-width: 100%;
-            max-height: 100%;
-            width: auto;
-            height: auto;
-            border-radius: 20px;
-            box-shadow: 5px 5px 5px black;
-        }
-    </style>
+  <meta charset="utf-8">
+  <title>taitsu</title>
 </head>
 
-<body style="padding: 0px;">
-    <a href="https://github.com/taitsu/taitsu.github.io"><img src="yande.re 547646 ass business_suit megane miru_tights okuzumi_yuiko pantsu pantyhose tagme thong.png" alt="yande.re 547646 ass business_suit megane miru_tights okuzumi_yuiko pantsu pantyhose tagme thong.png"></a>
+<body>
+  <div class="wrapper">
+    <img class="bg-img" src="yande.re 547646 ass business_suit megane miru_tights okuzumi_yuiko pantsu pantyhose tagme thong.png">
+    <a class="a" href="https://github.com/taitsu/taitsu.github.io">
+      <img class="img" src="yande.re 547646 ass business_suit megane miru_tights okuzumi_yuiko pantsu pantyhose tagme thong.png"
+        alt="yande.re 547646 ass business_suit megane miru_tights okuzumi_yuiko pantsu pantyhose tagme thong.png">
+    </a>
+  </div>
+
+  <style>
+    .wrapper {
+      position: fixed;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: black;
+    }
+
+    .bg-img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      opacity: 0.4;
+      z-index: 10;
+    }
+
+    .a {
+      z-index: 20;
+      opacity: 0.85;
+    }
+
+    .img {
+      max-width: 95vw;
+      max-height: 95vh;
+      width: auto;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 5px 5px 5px #80808080;
+    }
+  </style>
 </body>
 
 </html>
